@@ -195,11 +195,11 @@ main {
 } */
 
 .main-footer {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5rem;
-    width: 100%;
-  }
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  width: 100%;
+}
 
 .attribution {
   font-size: 11px;
@@ -236,7 +236,7 @@ main {
 
   .mobile-nav {
     height: 100vh;
-    width: 60%;
+    width: 70%;
     background-color: #fff;
     position: fixed;
     top: 0;
@@ -298,6 +298,10 @@ main {
 
   .mobile-nav-items > li:hover .mobile-dropdown {
     display: block;
+  }
+
+  .mobile-nav-items > li:hover .arrow-up {
+    transform: rotate(180deg);
   }
 
   .mobile-nav-items > li {

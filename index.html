@@ -15,96 +15,148 @@
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
   </head>
   <body>
-    <header>
-      <div class="header-left">
-        <div class="logo">
-          <img src="./images/logo.svg" alt="logo-image" />
+    <div class="body">
+      <header>
+        <div class="header-left">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="logo-image" />
+          </div>
+          <ul class="nav-items">
+            <li>
+              <div class="nav-content">
+                <span>Feature</span>
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="dropdown-icon"
+                  class="arrow-up"
+                />
+              </div>
+              <div class="dropdown">
+                <ul class="dropdown-list">
+                  <li>
+                    <a href="#">
+                      <img src="./images/icon-todo.svg" alt="todo-icon" />
+                      <span>Todo List</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="./images/icon-calendar.svg"
+                        alt="calender-icon"
+                      />
+                      <span>Calender</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="./images/icon-reminders.svg"
+                        alt="reminder-icon"
+                      />
+                      <span>Reminder</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="./images/icon-planning.svg"
+                        alt="planning-icon"
+                      />
+                      <span>Planning</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="nav-content">
+                <span>Company</span>
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="dropdown-icon"
+                  class="arrow-up"
+                />
+              </div>
+              <div class="dropdown">
+                <ul class="dropdown-list">
+                  <li>
+                    <a href="#">History</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <a href="#">Careers</a>
+            </li>
+
+            <li>
+              <a href="#">About</a>
+            </li>
+          </ul>
         </div>
-        <ul class="nav-items">
-          <li>
-            <div class="nav-content">
-              <span>Feature</span>
-              <img
-                src="./images/icon-arrow-down.svg"
-                alt="dropdown-icon"
-                class="arrow-up"
-              />
-            </div>
-            <div class="dropdown">
-              <ul class="dropdown-list">
-                <li>
-                  <a href="#">
-                    <img src="./images/icon-todo.svg" alt="todo-icon" />
-                    <span>Todo List</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="./images/icon-calendar.svg" alt="calender-icon" />
-                    <span>Calender</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="./images/icon-reminders.svg"
-                      alt="reminder-icon"
-                    />
-                    <span>Reminder</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="./images/icon-planning.svg" alt="planning-icon" />
-                    <span>Planning</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
+        <div class="header-right">
+          <a href="#" class="login">Login</a>
+          <a href="#" class="register">Register</a>
+        </div>
+        <div class="toggle-icon">
+          <img src="./images/icon-menu.svg" alt="" />
+        </div>
+      </header>
 
-          <li>
-            <div class="nav-content">
-              <span>Company</span>
-              <img
-                src="./images/icon-arrow-down.svg"
-                alt="dropdown-icon"
-                class="arrow-up"
-              />
+      <main>
+        <div class="main-left">
+          <h2>Make remote work</h2>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="learn-more">Learn more</button>
+          <div class="main-footer">
+            <div>
+              <img src="./images/client-databiz.svg" alt="data-biz" />
             </div>
-            <div class="dropdown">
-              <ul class="dropdown-list">
-                <li>
-                  <a href="#">History</a>
-                </li>
-                <li>
-                  <a href="#">Our Team</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-              </ul>
+            <div>
+              <img src="./images/client-audiophile.svg" alt="audiophile.svg" />
             </div>
-          </li>
-
-          <li>
-            <a href="#">Careers</a>
-          </li>
-
-          <li>
-            <a href="#">About</a>
-          </li>
-        </ul>
-      </div>
-      <div class="header-right">
-        <a href="#" class="login">Login</a>
-        <a href="#" class="register">Register</a>
-      </div>
-      <div class="toggle-icon">
-        <img src="./images/icon-menu.svg" alt="" />
-      </div>
-    </header>
-
+            <div>
+              <img src="./images/client-meet.svg" alt="meet" />
+            </div>
+            <div>
+              <img src="./images/client-maker.svg" alt="maker" />
+            </div>
+          </div>
+        </div>
+        <div class="main-right">
+          <img
+            src="./images/image-hero-desktop.png"
+            alt="hero-desktop"
+            class="hero-desktop"
+          />
+          <img
+            src="./images/image-hero-mobile.png"
+            alt="hero-mobile"
+            class="hero-mobile"
+          />
+        </div>
+      </main>
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://khingz.netlify.com">Khingz</a>.
+        </div>
+      </footer>
+    </div>
     <!-- Nav Mobile -->
     <div class="mobile-nav">
       <img src="./images/icon-close-menu.svg" alt="" class="close-menu" />
@@ -112,7 +164,11 @@
         <li>
           <div class="mobile-nav-content">
             <span>Feature</span>
-            <img src="./images/icon-arrow-down.svg" alt="dropdown-icon" />
+            <img
+              src="./images/icon-arrow-down.svg"
+              alt="dropdown-icon"
+              class="arrow-up"
+            />
           </div>
           <div class="mobile-dropdown">
             <ul class="mobile-dropdown-list">
@@ -147,7 +203,11 @@
         <li>
           <div class="mobile-nav-content">
             <span>Company</span>
-            <img src="./images/icon-arrow-down.svg" alt="dropdown-icon" />
+            <img
+              src="./images/icon-arrow-down.svg"
+              alt="dropdown-icon"
+              class="arrow-up"
+            />
           </div>
           <div class="mobile-dropdown">
             <ul class="mobile-dropdown-list">
@@ -183,52 +243,6 @@
     </div>
 
     <!-- Nav Mobile end -->
-
-    <main>
-      <div class="main-left">
-        <h2>Make remote work</h2>
-        <p>
-          Get your team in sync, no matter your location. Streamline processes,
-          create team rituals, and watch productivity soar.
-        </p>
-        <button class="learn-more">Learn more</button>
-        <div class="main-footer">
-          <div>
-            <img src="./images/client-databiz.svg" alt="data-biz" />
-          </div>
-          <div>
-            <img src="./images/client-audiophile.svg" alt="audiophile.svg" />
-          </div>
-          <div>
-            <img src="./images/client-meet.svg" alt="meet" />
-          </div>
-          <div>
-            <img src="./images/client-maker.svg" alt="maker" />
-          </div>
-        </div>
-      </div>
-      <div class="main-right">
-        <img
-          src="./images/image-hero-desktop.png"
-          alt="hero-desktop"
-          class="hero-desktop"
-        />
-        <img
-          src="./images/image-hero-mobile.png"
-          alt="hero-mobile"
-          class="hero-mobile"
-        />
-      </div>
-    </main>
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="https://khingz.netlify.com">Khingz</a>.
-      </div>
-    </footer>
-
     <script src="./js/app.js"></script>
   </body>
 </html>
