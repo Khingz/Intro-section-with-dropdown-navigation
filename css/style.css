@@ -247,6 +247,7 @@ main {
     padding: 2rem 1.5rem;
     transition: 1s;
     overflow: hidden;
+    box-shadow: -13px 7px 44px -14px rgba(0,0,0,0.32);
   }
 
   .showSideNav {
